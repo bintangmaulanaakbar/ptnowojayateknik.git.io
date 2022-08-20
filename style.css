@@ -1,0 +1,492 @@
+* {
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Opensans', sans-serif;
+}
+
+ul {
+    list-style: none;
+}
+
+/* NAVBAR */
+
+.logo {
+    width: 100%;
+    padding-top: 5px;
+    margin-bottom: -30px;
+    text-align: center;
+}
+
+.logo img {
+    width: 40px;
+}
+
+nav {
+    width: 100%;
+    margin: auto;
+    display: flex;
+    line-height: 50px;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+    border-bottom: 1px solid #3120E0;
+    background-color: #fff;
+}
+
+.wrapper {
+    position: relative;
+    width: 1100px;
+    margin: auto;
+}
+
+.brand {
+    float: left;
+}
+
+.brand a {
+    font-size: 30px;
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
+    color: #1C3879;
+    padding: 0 5px;
+}
+
+.brand img {
+    width: 50px;
+}
+
+.menu {
+    float: right;
+}
+
+nav ul {
+    overflow: hidden;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    float: left;
+    margin-right: 20px;
+    padding: 0 5px;
+}
+
+nav ul li a {
+    color: #1C3879;
+    font-size: 15px;
+    font-weight: lighter;
+}
+
+.menu a:hover {
+    text-decoration: underline;
+    font-weight: small;
+}
+
+.clear::after {
+    content: '';
+    display: block;
+    clear: both;
+}
+
+/* AKHIR NAVBAR */
+
+/* HERO */
+
+/* SECTION LIST */
+
+.hero-section {
+    width: 1100px;
+    margin: 50px auto;
+    display: flex;
+}
+
+.sidebar-section {
+    width: 1100px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.feature-section {
+    width: 1100px;
+    height: 70vh;
+    margin: auto;
+    display: flex;
+    align-items: center;
+}
+
+.product-section {
+    width: 1100px;
+    margin: auto;
+    margin-bottom: 150px;
+    display: flex;
+    flex-direction: column;
+}
+
+.type-product-section {
+    width: 1100px;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.contact-section {
+    width: 100%;
+    margin: auto;
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    background-color: #3120E0;
+    border-bottom: 1px solid #fff;
+}
+
+/* AKHIR SECTION LIST */
+
+/* SVG */
+
+.svg-about {
+    margin-top: -300px;
+}
+
+.svg-feature {
+    margin-bottom: -190px;
+}
+
+.svg-product {
+    margin-top: 10px;
+}
+
+.svg-contact {
+    margin-bottom: -200px;
+}
+
+/* AKHIR SVG */
+
+.home-side {
+    margin: auto;
+}
+
+/* FONTTITLE */
+
+.title {
+    font-size: 40px;
+    font-family: 'Courier New', Courier, monospace;
+    color: #1C3879;
+    padding: 20px;
+    text-align: center;
+}
+
+.sub-title {
+    font-size: 30px;
+    font-family: 'Courier New', Courier, monospace;
+    color: #1C3879;
+    text-align: center;
+}
+
+.contact-card h2 {
+    text-align: start;
+    color: #fff;
+    transform: translateX(7%);
+}
+
+.contact-card p {
+    color: #fff;
+    text-align: start;
+    padding: 5px;
+}
+
+.description {
+    font-size: 15px;
+    color: #1C3879;
+    padding: 20px;
+    text-align: center;
+}
+
+/* AKHIR FONTTITLE */
+
+/* BUTTON */
+
+.btn {
+    width: 200px;
+    font-size: 15px;
+    font-family: 'Courier New', Courier, monospace;
+    padding: 5px 20px;
+    border-radius: 25px;
+    border: none;
+    text-align: center;
+    color: #fff;
+    background-color: #3120E0;
+    transform: translateX(100%);
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: #1C3879
+}
+
+.btn-whatsapp {
+    margin-top: 10px;
+    padding: 10px;
+    font-size: 15px;
+    font-family: 'Courier New', Courier, monospace;
+    border-radius: 25px;
+    border: none;
+    text-align: center;
+    background-color: #25D366;
+    color: #fff;
+}
+
+.btn-whatsapp:hover {
+    background-color: #075E54;
+}
+
+/* AKHIR BUTTON */
+
+.sidebar-title {
+    width: 100%;
+}
+
+.sidebar-service {
+    width: 100%;
+    height: 200px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    text-align: center;
+    background-color: #dedede;
+}
+
+.description-panel {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 15px;
+    font-weight: bold;
+    margin-top: 5px;
+    letter-spacing: 3px;
+    opacity: 0.5;
+}
+
+.card-service img {
+    width: 80px;
+    opacity: 0.5;
+}
+
+.feature-content {
+    display: flex;
+    align-items: center;
+    margin-bottom: 100px
+}
+
+.side-1 {
+    flex: 1;
+    transform: translateX(30%);
+}
+
+.side-2 {
+    flex: 1;
+    transform: translateX(-10%);
+    align-items: center;
+}
+
+.product-content img {
+    padding: 0 40px;
+    background-color: #dedede;
+}
+
+.type-product {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.card-type {
+    width: 300px;
+    margin: 20px;
+    padding: 20px;
+    font-size: 15px;
+    color: #1C3879;
+    text-align: center;
+}
+
+.card-type img {
+    width: 300px;
+    height: 150px;
+    padding: 10px;
+}
+
+/* AKHIR HERO */
+
+/* FOOTER */
+
+footer {
+    width: 100%;
+    padding: 15px 0;
+    background-color: #3120E0;
+    text-align: center;
+    color: #fff;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 15px;
+    letter-spacing: 1px;
+}
+
+.contact-card {
+    width: 20%;
+    height: 250px;
+    margin: auto;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+/* AKHIR FOOTER */
+
+/* RESPONSIVE */
+
+@media screen and (max-width: 768px) {
+
+    nav {
+        margin: 0;
+        border-top: 1px solid #3120E0;
+    }
+
+    .logo img {
+        margin-bottom: 5px;
+    }
+
+    .wrapper {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .brand,
+    .menu {
+        float: none;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .hero-section {
+        margin: 0;
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .home-side {
+        margin: 0;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .btn {
+        display: flex;
+        justify-content: center;
+        transform: none;
+    }
+
+    .svg-about {
+        margin-top: -40px;
+    }
+
+    .sidebar-section {
+        margin: 0;
+        width: 100%;
+    }
+
+    .svg-feature {
+        margin: 0;
+    }
+
+    .card-service img {
+        width: 50px;
+    }
+
+    .feature-section {
+        width: 100%;
+        margin: 0;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .side-1,
+    .side-2 {
+        flex: auto;
+        transform: none;
+        display: flex;
+        justify-content: center;
+    }
+
+    .side-2 {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .svg-product {
+        margin-top: 200px;
+    }
+
+    .product-section {
+        width: 100%;
+    }
+
+    .product-content {
+        width: 100%;
+        text-align: center;
+    }
+
+    .product-content img {
+        width: 600px;
+        padding: 0 10px;
+        margin: auto;
+    }
+
+    .type-product-section {
+        width: 100%;
+        margin: 0;
+    }
+
+    .section-card {
+        margin: 0;
+        width: 100%;
+    }
+
+    .contact-card {
+        width: 20%;
+    }
+
+    .title {
+        font-size: 30px;
+    }
+
+    .sub-title {
+        font-size: 20px;
+    }
+
+    p {
+        font-size: 13px;
+    }
+
+    .description {
+        font-size: 10px;
+    }
+
+}
+
+/* AKHIR RESPONSIVE */
