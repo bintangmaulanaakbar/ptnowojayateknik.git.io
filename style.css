@@ -360,12 +360,12 @@ footer {
     flex-direction: column;
 }
 
-.contact-card img {
+.contact-card .sosmed img {
     width: 25px;
     margin: 3px;
 }
 
-.contact-card a {
+.contact-card .sosmed a {
     text-decoration: none;
     color: #fff;
 }
